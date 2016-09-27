@@ -28,7 +28,7 @@
 #define _MOVEMENT_PUBLISHER_HPP_
 
 #include <ros/ros.h>
-#include <boost/thread.hpp>
+#include <boost/shared_ptr.hpp>
 #include <string>
 #include <vector>
 
