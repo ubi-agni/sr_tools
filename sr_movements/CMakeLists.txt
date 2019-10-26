@@ -10,6 +10,7 @@ catkin_package(
     INCLUDE_DIRS include
     LIBRARIES sr_movement
 )
+set (CMAKE_CXX_STANDARD 11)
 
 add_definitions(-DMAGICKCORE_QUANTUM_DEPTH=16)
 add_definitions(-DMAGICKCORE_HDRI_ENABLE=0)
